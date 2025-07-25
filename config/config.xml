@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	
+	<Leaders>
+	
+		<Row LeaderType="LEADER_PERICLES" LeaderName="LOC_LEADER_PERICLES_NAME" LeaderDescription="LOC_LEADER_PERICLES_DESCRIPTION" LeaderIcon="LEADER_PERICLES"/>
+
+	</Leaders>
+	
+	<LeaderItems>
+		<Row LeaderType="LEADER_PERICLES" Type="TRAIT_LEADER_PERICLES_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_LEADER_PERICLES_ABILITY_NAME" Description="LOC_TRAIT_LEADER_PERICLES_ABILITY_DESCRIPTION"/>
+	</LeaderItems>
+	<LeaderTags>
+		<Row LeaderType="LEADER_PERICLES" TagType="TAG_TRAIT_POLITICAL"/>
+		<Row LeaderType="LEADER_PERICLES" TagType="TAG_TRAIT_CULTURAL"/>
+		<Row LeaderType="LEADER_PERICLES" TagType="TAG_GENDER_MALE"/>
+		<Row LeaderType="LEADER_PERICLES" TagType="TAG_ORIGIN_EUROPE_NORTH"/>
+	</LeaderTags>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_PERICLES" Quote="LOC_MAIN_CHAR_SELECT_LEADER_PERICLES_ANY"/>
+	</LeaderQuotes>
+	<LeaderUnlocks>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ABBASID" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ABBASID_NAME" Description="LOC_CIVILIZATION_ABBASID_DESCRIPTION" Icon="CIVILIZATION_ABBASID"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SPAIN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SPAIN_NAME" Description="LOC_CIVILIZATION_SPAIN_DESCRIPTION" Icon="CIVILIZATION_SPAIN"/>
+       	<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_FRENCH_EMPIRE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_FRENCH_EMPIRE_NAME" Description="LOC_CIVILIZATION_FRENCH_EMPIRE_DESCRIPTION" Icon="CIVILIZATION_FRENCH_EMPIRE"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_PRUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_PRUSSIA_NAME" Description="LOC_CIVILIZATION_PRUSSIA_DESCRIPTION" Icon="CIVILIZATION_PRUSSIA"/>
+
+	</LeaderUnlocks>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NORMAN" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_NORMAN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<InsertOrIgnore CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_MATTS_SCOTLAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_MATTS_SCOTLAND_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_ROME_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_MEXICO" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_MEXICO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
+		<InsertOrIgnore CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_GREAT_BRITAIN" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_BRITAIN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
+		<InsertOrIgnore CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_MATTS_IRELAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_MATTS_IRELAND_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
+	</LeaderCivilizationBias>
+	
+	<Mementos>
+		<Row Type="MEMENTO_OWAIN_MABINOGION" Name="LOC_MEMENTO_OWAIN_MABINOGION_NAME" Description="LOC_MEMENTO_OWAIN_MABINOGION_DESCRIPTION" FunctionalDescription="LOC_MEMENTO_OWAIN_MABINOGION_FUNCTIONAL_DESCRIPTION" UnlockTitle="LOC_MEMENTO_OWAIN_MABINOGION_UNLOCK_TITLE"/>
+		<Row Type="MEMENTO_OWAIN_DRAGON_BANNER" Name="LOC_MEMENTO_OWAIN_DRAGON_BANNER_NAME" Description="LOC_MEMENTO_OWAIN_DRAGON_BANNER_DESCRIPTION" FunctionalDescription="LOC_MEMENTO_OWAIN_DRAGON_BANNER_FUNCTIONAL_DESCRIPTION" UnlockTitle="LOC_MEMENTO_OWAIN_DRAGON_BANNER_UNLOCK_TITLE"/>
+		<Row Type="MEMENTO_OWAIN_GLYNDWR_SEAL" Name="LOC_MEMENTO_OWAIN_GLYNDWR_SEAL_NAME" Description="LOC_MEMENTO_OWAIN_GLYNDWR_SEAL_DESCRIPTION" FunctionalDescription="LOC_MEMENTO_OWAIN_GLYNDWR_SEAL_FUNCTIONAL_DESCRIPTION" LeaderSpecific="LEGEND_PATH_ASHOKA" UnlockTitle="LOC_MEMENTO_OWAIN_GLYNDWR_SEAL_UNLOCK_TITLE"/>
+	</Mementos>
+
+
+</Database>

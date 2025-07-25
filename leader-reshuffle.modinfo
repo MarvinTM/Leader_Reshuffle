@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="leader-reshuffle" version="1.0"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_LEADER_RESHUFFLE</Name>
+		<Description>LOC_MODULE_LEADER_RESHUFFLE_DESCRIPTION</Description>
+		<Authors>Antonio Moreno and Pedro Moreno</Authors>
+		<Package>MOD</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="izica-leader-model-changer" title="Izica's Leader model changer"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>	
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-persist" any="true">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="base-game-main-leader-reshuffle" scope="game" criteria="always">
+			<Actions>
+				<ImportFiles>
+					<Item>icons/pericles.png</Item>
+				</ImportFiles>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>data/leaders.xml</Item>
+				</UpdateDatabase>
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
+				<UpdateText>
+					<File>text/en_us/en_US_Text.xml</File>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-owain" scope="shell" criteria="always">
+			<Actions>
+				<ImportFiles>
+					<Item>icons/pericles.png</Item>
+				</ImportFiles>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<File>text/en_us/ModuleInfo.xml</File>
+					<Item>text/en_us/en_US_Text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleInfo.xml</File>
+	</LocalizedText>
+</Mod>

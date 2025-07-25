@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+	</Kinds>
+	<Types>
+		<Row Type="LEADER_PERICLES" Kind="KIND_LEADER"/>
+		<!-- Base Leader Traits-->
+		<Row Type="TRAIT_LEADER_PERICLES_ABILITY" Kind="KIND_TRAIT"/>
+		<InsertOrIgnore Type="DUMMY" Kind="KIND_TRAIT"/>
+
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_PERICLES" Name="LOC_LEADER_PERICLES_NAME" IsMajorLeader="true" AITargetCityPercentage="75" InheritFrom="LEADER_DEFAULT" />
+	</Leaders>
+	<CityEvents>
+	</CityEvents>
+	<SavingTypes>
+	</SavingTypes>
+	<SettlementPreferences>
+	</SettlementPreferences>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_PERICLES" TraitType="TRAIT_LEADER_PERICLES_ABILITY"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="TRAIT_LEADER_ATTRIBUTE_POLITICAL"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="TRAIT_LEADER_ATTRIBUTE_MILITARISTIC"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="TRAIT_AQ_CULTURE_VICTORY"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="TRAIT_EX_CULTURE_VICTORY"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="TRAIT_MO_CULTURE_VICTORY"/>
+	</LeaderTraits>
+	
+	<Traits>
+		<!--Base Leader Traits-->
+		<Row TraitType="TRAIT_LEADER_PERICLES_ABILITY" InternalOnly="true" Name="LOC_TRAIT_LEADER_PERICLES_ABILITY_NAME" Description="LOC_TRAIT_LEADER_PERICLES_ABILITY_DESCRIPTION"/>
+		<InsertOrIgnore TraitType="DUMMY" InternalOnly="true"/>
+	</Traits>
+
+	<!--Start Bias Scoring. Leaders tend to be 20 for historic and 10 for gameplay where civ are 15 and 5. These counts each instance within there starting region and multiplied by the score and divided by proximity to the center.-->
+	<!--<StartBiasBiomes>
+		<Row LeaderType="LEADER_OWAIN" BiomeType="BIOME_DESERT" Score="20"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row LeaderType="LEADER_OWAIN" TerrainType="TERRAIN_HILL" Score="10"/>
+	</StartBiasTerrains>
+	<StartBiasFeatureClasses>
+	</StartBiasFeatureClasses>
+	<StartBiasRivers>
+	</StartBiasRivers>
+	<StartBiasAdjacentToCoasts>
+		<Row LeaderType="LEADER_OWAIN" Score="50"/>
+	</StartBiasAdjacentToCoasts>
+	<StartBiasNaturalWonders>
+	</StartBiasNaturalWonders>-->
+	<TypeQuotes>
+		<Row Type="LEADER_PERICLES" Quote="LOC_MAIN_CHAR_SELECT_LEADER_PERICLES_ANY"/>
+	</TypeQuotes>
+
+</Database>
