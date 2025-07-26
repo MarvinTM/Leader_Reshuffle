@@ -27,14 +27,9 @@
 
 	</LeaderUnlocks>
 	<LeaderCivilizationBias>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NORMAN" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_NORMAN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<InsertOrIgnore CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_MATTS_SCOTLAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_MATTS_SCOTLAND_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-
+	
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_ROME_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
-
-		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_MEXICO" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_MEXICO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
-		<InsertOrIgnore CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_GREAT_BRITAIN" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_BRITAIN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
-		<InsertOrIgnore CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_MATTS_IRELAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_MATTS_IRELAND_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GREECE" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_GREECE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
 	</LeaderCivilizationBias>
 	
 	<Mementos>
