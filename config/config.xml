@@ -30,6 +30,12 @@
 	
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_ROME_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GREECE" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_GREECE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ABBASID" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_ABBASID_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SPAIN" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_SPAIN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_FRENCH_EMPIRE" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_FRENCH_EMPIRE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_PRUSSIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_PRUSSIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+
+
 	</LeaderCivilizationBias>
 	
 	<Mementos>

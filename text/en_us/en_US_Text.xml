@@ -22,5 +22,17 @@
         <Row Tag="LOC_UNLOCK_PLAY_AS_PERICLES_ROME_TOOLTIP">
             <Text>Rome was significantly influenced at times by the Helenistic cultures, of which Pericles was an important representative.</Text>
         </Row>
+        <Row Tag="LOC_UNLOCK_PLAY_AS_PERICLES_SPAIN_TOOLTIP">
+            <Text>Spain was significantly influenced at times by the Helenistic cultures, of which Pericles was an important representative.</Text>
+        </Row>
+        <Row Tag="LOC_UNLOCK_PLAY_AS_PERICLES_ABBASID_TOOLTIP">
+            <Text>The abbasids eventually conquered most of Greece, and were influenced by their culture, of which Pericles was an important representative.</Text>
+        </Row>
+        <Row Tag="LOC_UNLOCK_PLAY_AS_PERICLES_FRENCH_EMPIRE_TOOLTIP">
+            <Text>France was significantly influenced at times by the Helenistic cultures, of which Pericles was an important representative.</Text>
+        </Row>
+        <Row Tag="LOC_UNLOCK_PLAY_AS_PERICLES_PRUSSIA_TOOLTIP">
+            <Text>Prussia was significantly influenced at times by the Helenistic cultures, of which Pericles was an important representative.</Text>
+        </Row>
     </EnglishText>
 </Database>
