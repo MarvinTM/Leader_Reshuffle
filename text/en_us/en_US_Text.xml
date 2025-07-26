@@ -11,7 +11,7 @@
             <Text>Speaker of the Ancient Age</Text>
         </Row>
         <Row Tag="LOC_TRAIT_LEADER_PERICLES_ABILITY_DESCRIPTION">
-            <Text>[LI][B]+2[icon:YIELD_CULTURE] Culture[/B] per Age on all [B]Cultural buildings[/B].[/LIST]</Text>
+            <Text>[LI][B]+2[icon:YIELD_CULTURE] Culture[/B] per Age on all [B]settlements[/B].[/LIST]</Text>
         </Row>
         <Row Tag="LOC_MAIN_CHAR_SELECT_LEADER_PERICLES_ANY">
             <Text>To be happy means to be free and to be free means to be brave. Therefore do not take lightly the perils of war.</Text>
