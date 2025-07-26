@@ -28,8 +28,8 @@
 	</LeaderUnlocks>
 	<LeaderCivilizationBias>
 	
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_ROME_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GREECE" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_OWAIN_GREECE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_ROME_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GREECE" LeaderDomain="StandardLeaders" LeaderType="LEADER_PERICLES" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_PERICLES_GREECE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
 	</LeaderCivilizationBias>
 	
 	<Mementos>

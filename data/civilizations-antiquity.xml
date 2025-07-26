@@ -2,6 +2,6 @@
 <Database>
 	<LeaderCivPriorities>
 		<Row Leader="LEADER_PERICLES" Civilization="CIVILIZATION_ROME" Priority="2"/>
-		<Row Leader="LEADER_PERICLES" Civilization="CIVILIZATION_GREECE" Priority="3"/>
+		<Row Leader="LEADER_PERICLES" Civilization="CIVILIZATION_GREECE" Priority="5"/>
 	</LeaderCivPriorities>
 </Database>

@@ -16,5 +16,11 @@
         <Row Tag="LOC_MAIN_CHAR_SELECT_LEADER_PERICLES_ANY">
             <Text>To be happy means to be free and to be free means to be brave. Therefore do not take lightly the perils of war.</Text>
         </Row>
+        <Row Tag="LOC_UNLOCK_PLAY_AS_PERICLES_GREECE_TOOLTIP">
+            <Text>Pericles was a great leader of ancient Greece.</Text>
+        </Row>
+        <Row Tag="LOC_UNLOCK_PLAY_AS_PERICLES_ROME_TOOLTIP">
+            <Text>Rome was significantly influenced at times by the Helenistic cultures, of which Pericles was an important representative.</Text>
+        </Row>
     </EnglishText>
 </Database>
