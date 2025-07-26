@@ -48,6 +48,7 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>data/leaders.xml</Item>
+					<Item>data/leaders-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateColors>
 					<Item>data/playercolors.xml</Item>
@@ -57,7 +58,7 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="shell-owain" scope="shell" criteria="always">
+		<ActionGroup id="shell-leader-reshuffle" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
 					<Item>icons/pericles.png</Item>

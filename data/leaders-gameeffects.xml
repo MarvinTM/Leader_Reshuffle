@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="PERICLES_MOD_CULTURE_SETTLEMENTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_PERICLES_ABILITY_NAME</Argument>
+	</Modifier>
+</GameEffects>

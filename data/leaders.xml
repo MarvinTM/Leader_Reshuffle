@@ -32,6 +32,13 @@
 		<Row TraitType="TRAIT_LEADER_PERICLES_ABILITY" InternalOnly="true" Name="LOC_TRAIT_LEADER_PERICLES_ABILITY_NAME" Description="LOC_TRAIT_LEADER_PERICLES_ABILITY_DESCRIPTION"/>
 		<InsertOrIgnore TraitType="DUMMY" InternalOnly="true"/>
 	</Traits>
+	
+	<TraitModifiers>
+			<Row TraitType="TRAIT_LEADER_PERICLES_ABILITY" ModifierId="PERICLES_MOD_CULTURE_SETTLEMENTS"/>
+	</TraitModifiers>
+
+
+
 
 	<!--Start Bias Scoring. Leaders tend to be 20 for historic and 10 for gameplay where civ are 15 and 5. These counts each instance within there starting region and multiplied by the score and divided by proximity to the center.-->
 	<!--<StartBiasBiomes>
